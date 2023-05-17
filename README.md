@@ -1,2 +1,4 @@
 # BrainTumourDetection
-Analysis of Brain Tumour Detection Technologies
+The application of machine learning and deep learning in the healthcare industry is still in its early stages, but several initiatives are being taken by researchers, and many large corporates are also pursuing healthcare projects based on machine learning. This project aims to implement numerous models for the detection and classification of brain tumours. The ultimate objective is to have a comparative analysis and find the most suitable model that can be deployed in real life for doctors and healthcare workers to quickly and accurately detect brain tumours from a Magnetic Resonance Image to provide the necessary treatment in time.
+
+Four Deep Learning models were trained and tested using a dataset that detects the presence of a tumour and does not classify the type of brain tumour. Model 4 which used transfer learning with Resnet performed the best with an accuracy of 92%, while Model 3whicht used transfer learning with the VGG16 model was not far behind at an accuracy of 90%. Not using pre-trained models gave us a lower accuracy of 68% and 78% for Models 1 and 2 respectively.
